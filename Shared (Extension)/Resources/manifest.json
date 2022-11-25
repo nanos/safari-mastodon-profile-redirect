@@ -1,0 +1,22 @@
+{
+  "name": "Mastodon Profile Redirect",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.2.1",
+  "description": "Rewrites Mastodon Profile URLs so that they are served from the Mastodon instance that hosts your account",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "64": "images/icon-64.png",
+    "128": "images/icon-128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options/options.html"
+}

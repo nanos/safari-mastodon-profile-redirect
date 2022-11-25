@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CB75E8D292FD8DA00E47A76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB75E8C292FD8DA00E47A76 /* AppDelegate.swift */; };
+		4CB75E8F292FD8DA00E47A76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB75E8E292FD8DA00E47A76 /* SceneDelegate.swift */; };
+		4CB75E92292FD8DA00E47A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75E90292FD8DA00E47A76 /* LaunchScreen.storyboard */; };
+		4CB75E95292FD8DA00E47A76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75E93292FD8DA00E47A76 /* Main.storyboard */; };
+		4CB75E9E292FD8DA00E47A76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB75E9D292FD8DA00E47A76 /* AppDelegate.swift */; };
+		4CB75EA1292FD8DA00E47A76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75E9F292FD8DA00E47A76 /* Main.storyboard */; };
+		4CB75EA9292FD8DA00E47A76 /* Mastodon Profile Redirect Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4CB75EA8292FD8DA00E47A76 /* Mastodon Profile Redirect Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4CB75EB3292FD8DA00E47A76 /* Mastodon Profile Redirect Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4CB75EB2292FD8DA00E47A76 /* Mastodon Profile Redirect Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4CB75EB9292FD8DA00E47A76 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75E7C292FD8D900E47A76 /* Main.html */; };
+		4CB75EBA292FD8DA00E47A76 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75E7C292FD8D900E47A76 /* Main.html */; };
+		4CB75EBB292FD8DA00E47A76 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75E7E292FD8D900E47A76 /* Icon.png */; };
+		4CB75EBC292FD8DA00E47A76 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75E7E292FD8D900E47A76 /* Icon.png */; };
+		4CB75EBD292FD8DA00E47A76 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75E7F292FD8D900E47A76 /* Style.css */; };
+		4CB75EBE292FD8DA00E47A76 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75E7F292FD8D900E47A76 /* Style.css */; };
+		4CB75EBF292FD8DA00E47A76 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75E80292FD8D900E47A76 /* Script.js */; };
+		4CB75EC0292FD8DA00E47A76 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75E80292FD8D900E47A76 /* Script.js */; };
+		4CB75EC1292FD8DA00E47A76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB75E81292FD8D900E47A76 /* ViewController.swift */; };
+		4CB75EC2292FD8DA00E47A76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB75E81292FD8D900E47A76 /* ViewController.swift */; };
+		4CB75EC3292FD8DA00E47A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75E82292FD8DA00E47A76 /* Assets.xcassets */; };
+		4CB75EC4292FD8DA00E47A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75E82292FD8DA00E47A76 /* Assets.xcassets */; };
+		4CB75EC5292FD8DA00E47A76 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB75E84292FD8DA00E47A76 /* SafariWebExtensionHandler.swift */; };
+		4CB75EC6292FD8DA00E47A76 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB75E84292FD8DA00E47A76 /* SafariWebExtensionHandler.swift */; };
+		4CB75EDC292FD8DA00E47A76 /* options in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75ED8292FD8DA00E47A76 /* options */; };
+		4CB75EDD292FD8DA00E47A76 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75ED9292FD8DA00E47A76 /* background.js */; };
+		4CB75EDE292FD8DA00E47A76 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75EDA292FD8DA00E47A76 /* images */; };
+		4CB75EDF292FD8DA00E47A76 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75EDB292FD8DA00E47A76 /* manifest.json */; };
+		4CB75EE0292FD8DA00E47A76 /* options in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75ED8292FD8DA00E47A76 /* options */; };
+		4CB75EE1292FD8DA00E47A76 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75ED9292FD8DA00E47A76 /* background.js */; };
+		4CB75EE2292FD8DA00E47A76 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75EDA292FD8DA00E47A76 /* images */; };
+		4CB75EE3292FD8DA00E47A76 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CB75EDB292FD8DA00E47A76 /* manifest.json */; };
+		4CC882752930ABF400BF039F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4CC882742930ABF400BF039F /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CB75EAA292FD8DA00E47A76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB75E76292FD8D900E47A76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB75EA7292FD8DA00E47A76;
+			remoteInfo = "Mastodon Profile Redirect Extension (iOS)";
+		};
+		4CB75EB4292FD8DA00E47A76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB75E76292FD8D900E47A76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB75EB1292FD8DA00E47A76;
+			remoteInfo = "Mastodon Profile Redirect Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CB75ECC292FD8DA00E47A76 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4CB75EA9292FD8DA00E47A76 /* Mastodon Profile Redirect Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB75ED3292FD8DA00E47A76 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4CB75EB3292FD8DA00E47A76 /* Mastodon Profile Redirect Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CB75E7D292FD8D900E47A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		4CB75E7E292FD8D900E47A76 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4CB75E7F292FD8D900E47A76 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		4CB75E80292FD8D900E47A76 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		4CB75E81292FD8D900E47A76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CB75E82292FD8DA00E47A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CB75E84292FD8DA00E47A76 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		4CB75E89292FD8DA00E47A76 /* Mastodon Profile Redirect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mastodon Profile Redirect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB75E8C292FD8DA00E47A76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CB75E8E292FD8DA00E47A76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4CB75E91292FD8DA00E47A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CB75E94292FD8DA00E47A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CB75E96292FD8DA00E47A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB75E9B292FD8DA00E47A76 /* Mastodon Profile Redirect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mastodon Profile Redirect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB75E9D292FD8DA00E47A76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CB75EA0292FD8DA00E47A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CB75EA2292FD8DA00E47A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB75EA3292FD8DA00E47A76 /* Mastodon Profile Redirect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mastodon Profile Redirect.entitlements"; sourceTree = "<group>"; };
+		4CB75EA8292FD8DA00E47A76 /* Mastodon Profile Redirect Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mastodon Profile Redirect Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB75EAD292FD8DA00E47A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB75EB2292FD8DA00E47A76 /* Mastodon Profile Redirect Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mastodon Profile Redirect Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB75EB7292FD8DA00E47A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB75EB8292FD8DA00E47A76 /* Mastodon Profile Redirect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mastodon Profile Redirect.entitlements"; sourceTree = "<group>"; };
+		4CB75ED8292FD8DA00E47A76 /* options */ = {isa = PBXFileReference; lastKnownFileType = folder; name = options; path = Resources/options; sourceTree = "<group>"; };
+		4CB75ED9292FD8DA00E47A76 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		4CB75EDA292FD8DA00E47A76 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		4CB75EDB292FD8DA00E47A76 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		4CC882742930ABF400BF039F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4CC882762930AC4400BF039F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4CC882772930B08A00BF039F /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB75E86292FD8DA00E47A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB75E98292FD8DA00E47A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB75EA5292FD8DA00E47A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB75EAF292FD8DA00E47A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CB75E75292FD8D900E47A76 = {
+			isa = PBXGroup;
+			children = (
+				4CC882772930B08A00BF039F /* LICENSE.md */,
+				4CC882762930AC4400BF039F /* README.md */,
+				4CC882742930ABF400BF039F /* .gitignore */,
+				4CB75E7A292FD8D900E47A76 /* Shared (App) */,
+				4CB75E83292FD8DA00E47A76 /* Shared (Extension) */,
+				4CB75E8B292FD8DA00E47A76 /* iOS (App) */,
+				4CB75E9C292FD8DA00E47A76 /* macOS (App) */,
+				4CB75EAC292FD8DA00E47A76 /* iOS (Extension) */,
+				4CB75EB6292FD8DA00E47A76 /* macOS (Extension) */,
+				4CB75E8A292FD8DA00E47A76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB75E7A292FD8D900E47A76 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				4CB75E81292FD8D900E47A76 /* ViewController.swift */,
+				4CB75E82292FD8DA00E47A76 /* Assets.xcassets */,
+				4CB75E7B292FD8D900E47A76 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		4CB75E7B292FD8D900E47A76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CB75E7C292FD8D900E47A76 /* Main.html */,
+				4CB75E7E292FD8D900E47A76 /* Icon.png */,
+				4CB75E7F292FD8D900E47A76 /* Style.css */,
+				4CB75E80292FD8D900E47A76 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4CB75E83292FD8DA00E47A76 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				4CB75ED7292FD8DA00E47A76 /* Resources */,
+				4CB75E84292FD8DA00E47A76 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		4CB75E8A292FD8DA00E47A76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB75E89292FD8DA00E47A76 /* Mastodon Profile Redirect.app */,
+				4CB75E9B292FD8DA00E47A76 /* Mastodon Profile Redirect.app */,
+				4CB75EA8292FD8DA00E47A76 /* Mastodon Profile Redirect Extension.appex */,
+				4CB75EB2292FD8DA00E47A76 /* Mastodon Profile Redirect Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB75E8B292FD8DA00E47A76 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				4CB75E8C292FD8DA00E47A76 /* AppDelegate.swift */,
+				4CB75E8E292FD8DA00E47A76 /* SceneDelegate.swift */,
+				4CB75E90292FD8DA00E47A76 /* LaunchScreen.storyboard */,
+				4CB75E93292FD8DA00E47A76 /* Main.storyboard */,
+				4CB75E96292FD8DA00E47A76 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		4CB75E9C292FD8DA00E47A76 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				4CB75E9D292FD8DA00E47A76 /* AppDelegate.swift */,
+				4CB75E9F292FD8DA00E47A76 /* Main.storyboard */,
+				4CB75EA2292FD8DA00E47A76 /* Info.plist */,
+				4CB75EA3292FD8DA00E47A76 /* Mastodon Profile Redirect.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		4CB75EAC292FD8DA00E47A76 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				4CB75EAD292FD8DA00E47A76 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		4CB75EB6292FD8DA00E47A76 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				4CB75EB7292FD8DA00E47A76 /* Info.plist */,
+				4CB75EB8292FD8DA00E47A76 /* Mastodon Profile Redirect.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		4CB75ED7292FD8DA00E47A76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CB75ED8292FD8DA00E47A76 /* options */,
+				4CB75ED9292FD8DA00E47A76 /* background.js */,
+				4CB75EDA292FD8DA00E47A76 /* images */,
+				4CB75EDB292FD8DA00E47A76 /* manifest.json */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB75E88292FD8DA00E47A76 /* Mastodon Profile Redirect (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB75ECD292FD8DA00E47A76 /* Build configuration list for PBXNativeTarget "Mastodon Profile Redirect (iOS)" */;
+			buildPhases = (
+				4CB75E85292FD8DA00E47A76 /* Sources */,
+				4CB75E86292FD8DA00E47A76 /* Frameworks */,
+				4CB75E87292FD8DA00E47A76 /* Resources */,
+				4CB75ECC292FD8DA00E47A76 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB75EAB292FD8DA00E47A76 /* PBXTargetDependency */,
+			);
+			name = "Mastodon Profile Redirect (iOS)";
+			productName = "Mastodon Profile Redirect (iOS)";
+			productReference = 4CB75E89292FD8DA00E47A76 /* Mastodon Profile Redirect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CB75E9A292FD8DA00E47A76 /* Mastodon Profile Redirect (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB75ED4292FD8DA00E47A76 /* Build configuration list for PBXNativeTarget "Mastodon Profile Redirect (macOS)" */;
+			buildPhases = (
+				4CB75E97292FD8DA00E47A76 /* Sources */,
+				4CB75E98292FD8DA00E47A76 /* Frameworks */,
+				4CB75E99292FD8DA00E47A76 /* Resources */,
+				4CB75ED3292FD8DA00E47A76 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB75EB5292FD8DA00E47A76 /* PBXTargetDependency */,
+			);
+			name = "Mastodon Profile Redirect (macOS)";
+			productName = "Mastodon Profile Redirect (macOS)";
+			productReference = 4CB75E9B292FD8DA00E47A76 /* Mastodon Profile Redirect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CB75EA7292FD8DA00E47A76 /* Mastodon Profile Redirect Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB75EC9292FD8DA00E47A76 /* Build configuration list for PBXNativeTarget "Mastodon Profile Redirect Extension (iOS)" */;
+			buildPhases = (
+				4CB75EA4292FD8DA00E47A76 /* Sources */,
+				4CB75EA5292FD8DA00E47A76 /* Frameworks */,
+				4CB75EA6292FD8DA00E47A76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mastodon Profile Redirect Extension (iOS)";
+			productName = "Mastodon Profile Redirect Extension (iOS)";
+			productReference = 4CB75EA8292FD8DA00E47A76 /* Mastodon Profile Redirect Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4CB75EB1292FD8DA00E47A76 /* Mastodon Profile Redirect Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB75ED0292FD8DA00E47A76 /* Build configuration list for PBXNativeTarget "Mastodon Profile Redirect Extension (macOS)" */;
+			buildPhases = (
+				4CB75EAE292FD8DA00E47A76 /* Sources */,
+				4CB75EAF292FD8DA00E47A76 /* Frameworks */,
+				4CB75EB0292FD8DA00E47A76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mastodon Profile Redirect Extension (macOS)";
+			productName = "Mastodon Profile Redirect Extension (macOS)";
+			productReference = 4CB75EB2292FD8DA00E47A76 /* Mastodon Profile Redirect Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB75E76292FD8D900E47A76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					4CB75E88292FD8DA00E47A76 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					4CB75E9A292FD8DA00E47A76 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					4CB75EA7292FD8DA00E47A76 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					4CB75EB1292FD8DA00E47A76 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 4CB75E79292FD8D900E47A76 /* Build configuration list for PBXProject "Mastodon Profile Redirect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CB75E75292FD8D900E47A76;
+			productRefGroup = 4CB75E8A292FD8DA00E47A76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB75E88292FD8DA00E47A76 /* Mastodon Profile Redirect (iOS) */,
+				4CB75E9A292FD8DA00E47A76 /* Mastodon Profile Redirect (macOS) */,
+				4CB75EA7292FD8DA00E47A76 /* Mastodon Profile Redirect Extension (iOS) */,
+				4CB75EB1292FD8DA00E47A76 /* Mastodon Profile Redirect Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB75E87292FD8DA00E47A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC882752930ABF400BF039F /* .gitignore in Resources */,
+				4CB75EBB292FD8DA00E47A76 /* Icon.png in Resources */,
+				4CB75E92292FD8DA00E47A76 /* LaunchScreen.storyboard in Resources */,
+				4CB75EB9292FD8DA00E47A76 /* Main.html in Resources */,
+				4CB75EBF292FD8DA00E47A76 /* Script.js in Resources */,
+				4CB75EC3292FD8DA00E47A76 /* Assets.xcassets in Resources */,
+				4CB75E95292FD8DA00E47A76 /* Main.storyboard in Resources */,
+				4CB75EBD292FD8DA00E47A76 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB75E99292FD8DA00E47A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB75EBC292FD8DA00E47A76 /* Icon.png in Resources */,
+				4CB75EBE292FD8DA00E47A76 /* Style.css in Resources */,
+				4CB75EA1292FD8DA00E47A76 /* Main.storyboard in Resources */,
+				4CB75EC0292FD8DA00E47A76 /* Script.js in Resources */,
+				4CB75EC4292FD8DA00E47A76 /* Assets.xcassets in Resources */,
+				4CB75EBA292FD8DA00E47A76 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB75EA6292FD8DA00E47A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB75EE3292FD8DA00E47A76 /* manifest.json in Resources */,
+				4CB75EE2292FD8DA00E47A76 /* images in Resources */,
+				4CB75EE1292FD8DA00E47A76 /* background.js in Resources */,
+				4CB75EE0292FD8DA00E47A76 /* options in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB75EB0292FD8DA00E47A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB75EDF292FD8DA00E47A76 /* manifest.json in Resources */,
+				4CB75EDE292FD8DA00E47A76 /* images in Resources */,
+				4CB75EDD292FD8DA00E47A76 /* background.js in Resources */,
+				4CB75EDC292FD8DA00E47A76 /* options in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB75E85292FD8DA00E47A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB75EC1292FD8DA00E47A76 /* ViewController.swift in Sources */,
+				4CB75E8D292FD8DA00E47A76 /* AppDelegate.swift in Sources */,
+				4CB75E8F292FD8DA00E47A76 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB75E97292FD8DA00E47A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB75EC2292FD8DA00E47A76 /* ViewController.swift in Sources */,
+				4CB75E9E292FD8DA00E47A76 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB75EA4292FD8DA00E47A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB75EC5292FD8DA00E47A76 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB75EAE292FD8DA00E47A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB75EC6292FD8DA00E47A76 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CB75EAB292FD8DA00E47A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB75EA7292FD8DA00E47A76 /* Mastodon Profile Redirect Extension (iOS) */;
+			targetProxy = 4CB75EAA292FD8DA00E47A76 /* PBXContainerItemProxy */;
+		};
+		4CB75EB5292FD8DA00E47A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB75EB1292FD8DA00E47A76 /* Mastodon Profile Redirect Extension (macOS) */;
+			targetProxy = 4CB75EB4292FD8DA00E47A76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CB75E7C292FD8D900E47A76 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB75E7D292FD8D900E47A76 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		4CB75E90292FD8DA00E47A76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB75E91292FD8DA00E47A76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4CB75E93292FD8DA00E47A76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB75E94292FD8DA00E47A76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CB75E9F292FD8DA00E47A76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB75EA0292FD8DA00E47A76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CB75EC7292FD8DA00E47A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CB75EC8292FD8DA00E47A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4CB75ECA292FD8DA00E47A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN68K3VW5F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mastodon Profile Redirect Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mastodon-Profile-Redirect.Extension";
+				PRODUCT_NAME = "Mastodon Profile Redirect Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CB75ECB292FD8DA00E47A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN68K3VW5F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mastodon Profile Redirect Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mastodon-Profile-Redirect.Extension";
+				PRODUCT_NAME = "Mastodon Profile Redirect Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB75ECE292FD8DA00E47A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN68K3VW5F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mastodon Profile Redirect";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mastodon-Profile-Redirect";
+				PRODUCT_NAME = "Mastodon Profile Redirect";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CB75ECF292FD8DA00E47A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN68K3VW5F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mastodon Profile Redirect";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mastodon-Profile-Redirect";
+				PRODUCT_NAME = "Mastodon Profile Redirect";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB75ED1292FD8DA00E47A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Mastodon Profile Redirect.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mastodon Profile Redirect Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mastodon-Profile-Redirect.Extension";
+				PRODUCT_NAME = "Mastodon Profile Redirect Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4CB75ED2292FD8DA00E47A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Mastodon Profile Redirect.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mastodon Profile Redirect Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mastodon-Profile-Redirect.Extension";
+				PRODUCT_NAME = "Mastodon Profile Redirect Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4CB75ED5292FD8DA00E47A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Mastodon Profile Redirect.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mastodon Profile Redirect";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mastodon-Profile-Redirect";
+				PRODUCT_NAME = "Mastodon Profile Redirect";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4CB75ED6292FD8DA00E47A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Mastodon Profile Redirect.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mastodon Profile Redirect";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mastodon-Profile-Redirect";
+				PRODUCT_NAME = "Mastodon Profile Redirect";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB75E79292FD8D900E47A76 /* Build configuration list for PBXProject "Mastodon Profile Redirect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB75EC7292FD8DA00E47A76 /* Debug */,
+				4CB75EC8292FD8DA00E47A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB75EC9292FD8DA00E47A76 /* Build configuration list for PBXNativeTarget "Mastodon Profile Redirect Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB75ECA292FD8DA00E47A76 /* Debug */,
+				4CB75ECB292FD8DA00E47A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB75ECD292FD8DA00E47A76 /* Build configuration list for PBXNativeTarget "Mastodon Profile Redirect (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB75ECE292FD8DA00E47A76 /* Debug */,
+				4CB75ECF292FD8DA00E47A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB75ED0292FD8DA00E47A76 /* Build configuration list for PBXNativeTarget "Mastodon Profile Redirect Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB75ED1292FD8DA00E47A76 /* Debug */,
+				4CB75ED2292FD8DA00E47A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB75ED4292FD8DA00E47A76 /* Build configuration list for PBXNativeTarget "Mastodon Profile Redirect (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB75ED5292FD8DA00E47A76 /* Debug */,
+				4CB75ED6292FD8DA00E47A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB75E76292FD8D900E47A76 /* Project object */;
+}
