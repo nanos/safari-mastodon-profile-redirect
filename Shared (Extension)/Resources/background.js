@@ -11,6 +11,17 @@ const go = () => {
             alert('Please go to options and set your MY_MASTO_LOCAL_DOMAIN first');
             return;
         }
+        
+        const tryAndGetPostPath = () => {
+            const pathname = window.location.pathname;
+            
+            /* URL contains 2 slashes, e.g. https://mstdn.thms.uk/@michael/109411993473404947 - we assume it's a specific post, and redirect there */
+            if(pathname.match(/^\/[^\/]*\/.+$/)) {
+                return window.location.href;
+            }
+                
+            return null;
+        }
 
         const tryAndGetUserName = () => {
             /* Profile with a moved banner (e.g. https://mastodon.social/@bramus): follow that link */
@@ -55,6 +66,12 @@ const go = () => {
             
             return null;
         };
+        
+        const post = tryAndGetPostPath();
+        if(post) {
+            window.location.href = `https://${MY_MASTO_WEB_DOMAIN}/authorize_interaction?uri=${post}`;
+            return;
+        }
 
         let user = tryAndGetUserName();
         if (!user) return;
